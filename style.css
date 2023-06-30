@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+h1 {
+  color: #497003;
+  font-weight: bolder;
+  font-size: 57px;
+  font-family: "Chewy";
+  text-align: center;
+}
+
+h4 {
+  font-family: "Chewy";
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.recipe_card {
+  text-align: center;
+  margin: 20px;
+  min-height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.block {
+  padding: 3%;
+  display: grid;
+}
+
+.line {
+  margin-right: 20px;
+  display: flex;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5) ;
+}
+
+li,
+ul {
+  list-style: none;
+  position: relative;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+
+.image-container {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 27.33%;
+  height: auto;
+}
+
+.preparation {
+  width: 40vw;
+}
+
+.background-blue {
+  background-color: blue;
+}
+
+p { 
+color:#a94e1a
+}
